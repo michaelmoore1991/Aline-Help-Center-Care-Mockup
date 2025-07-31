@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- This is a mock up for the Care Application -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .header {
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    .header img {
+      height: 30px;
+    }
+    .header button {
+      background-color: #3498db;
+      border: none;
+      padding: 10px 16px;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .hero {
+      background: url('https://raw.githubusercontent.com/michaelmoore1991/Aline-Help-Center-Images/refs/heads/main/aline-hel-center-banner-v4.png?token=GHSAT0AAAAAADIMCWXA5GYHZH2IYKF4BWCU2ELQAEQ') no-repeat center/cover;
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero input[type="text"] {
+      width: 60%;
+      padding: 12px;
+      font-size: 1em;
+      border-radius: 6px;
+      border: none;
+      max-width: 500px;
+    }
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px auto;
+      max-width: 1100px;
+      gap: 20px;
+    }
+    .tile {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .tile.highlight {
+      background-color: #e9f3fb;
+    }
+    .tile img {
+      height: 50px;
+      margin-bottom: 15px;
+    }
+    .tile h3 {
+      margin-top: 0;
+    }
+    .tile p {
+      font-size: 0.95em;
+      margin: 10px 0 20px;
+    }
+    .tile a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #3498db;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://i.imgur.com/suAUzo0.png" alt="Logo" />
+    <div>
+      <button>Contact Aline Support</button>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>We're here to help!</h1>
+    <input type="text" placeholder="Search" />
+  </div>
+
+  <div class="section">
+    <div class="tile highlight">
+      <h3>Aline Academy</h3>
+      <p>Ready to start learning? Register for Aline Academy to enroll in courses!</p>
+      <a href="#">Register Now</a>
+    </div>
+    <div class="tile highlight">
+      <h3>See What's New</h3>
+      <p>Explore our newest features and learn best practices from our insightful guides.</p>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="tile highlight">
+      <h3>Aline Care Release Notes</h3>
+      <p>Discover the new features and bug fixes in the latest releases.</p>
+      <a href="#">Release Notes</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="tile">
+      <img src="https://i.imgur.com/CvkgTmH.png" alt="CRM Icon" />
+      <h3>Resident Profile Management</h3>
+      <p>Learn more about the various tool available on each resident profile!</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/cOt8ag5.png" alt="Residents Icon" />
+      <h3>Assessments</h3>
+      <p>How to complete and manage your resident's assessments.</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/DaVZfD9.png" alt="Medications Icon" />
+      <h3>Task Management</h3>
+      <p>Edit tasks, manage task completion compliance, and more.</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/5COhno4.png" alt="Forms Icon" />
+      <h3>Incident Reporting</h3>
+      <p>Dive into managing your resident's incidents and related incident reporting.</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/jkJiS9r.png" alt="Tasks Icon" />
+      <h3>CareMobile</h3>
+      <p>Resident information, vital checks, shift log, task charting, and incident reporting.</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/sYUgYLe.png" alt="Billing Icon" />
+      <h3>Dashboards & Reporting</h3>
+      <p>Need some data? Dive into the Aline Care Dashboard and Reporting.</p>
+    </div>
+    <div class="tile">
+      <img src="https://i.imgur.com/yFaIb3X.png" alt="Billing Icon" />
+      <h3>Administrative Tools</h3>
+      <p>Manage your care operation from one central location.</p>
+    </div>
+  </div>
+</body>
+</html>
